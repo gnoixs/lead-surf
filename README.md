@@ -29,24 +29,23 @@
 # 初始化git仓库
     git init
     touch .gitignore
-# 划分目录结构
+
+# 第一版目录结构
 [lead-surf]
     ├── bin
     │   └── www
-    ├── configs 
-    │   └── gulp.cf.json
+    ├── data
+    │   └── 201611RedPocket
     ├── node_modules                                                                      
-    ├── public                                        
-    │   ├── build
-    │   ├── libs
-    │   └── src
-    │       ├── fonts
-    │       ├── imgs
-    │       ├── sass
-    │       └── scripts
+    ├── public
+    │   └── 201611RedPocket
+    │       ├── images
+    │       ├── scripts
+    │       ├── style
+    │       └── TheFirstWeek.html
     ├── routes
     │   ├── index.js
-    │   └── users.js
+    │   └── 201611RedPocket.js
     ├── test
     │   ├── e2e
     │   └── unit

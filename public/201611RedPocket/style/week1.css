@@ -25,7 +25,7 @@
 .nov_curtion .lock, .nov_curtion .open {
     width: 423px;
     height: 378px;
-    background: url(../images/rp-lock.png) no-repeat center center;
+    background: url(../images/week1/rp-lock.png) no-repeat center center;
     position: absolute;
     top: 215px;
     left: 112px;
@@ -34,7 +34,7 @@
 }
 
 .nov_curtion .open {
-    background: url(../images/rp-open-3.png) no-repeat center center;
+    background: url(../images/week1/rp-open-3.png) no-repeat center center;
 }
 
 .nov_curtion .lock h1, .nov_curtion .open h1 {
@@ -82,10 +82,6 @@
 
 .nov_curtion .lock .btn:hover, .nov_curtion .open .btn:hover {
     cursor: pointer;
-    /*width:208px;
-    height: 56px;
-    left:100px;
-    top:285px;*/
     line-height: 50px;
     background-size: contain;
     background: url(../images/rp-btn-hover.png) no-repeat center center;
@@ -172,6 +168,6 @@
     right: 0;
     top: 55px;
     margin: auto;
-    animation: rota 2s normal infinite ease;
+    animation: rota 15s normal infinite linear;
     display: none;
 }

@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var _201611RedPocket = require('./routes/201611RedPocket');
+var _201610Turntable = require('./routes/201610Turntable');
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/201611RedPocket', _201611RedPocket);
+app.use('/201610Turntable', _201610Turntable);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

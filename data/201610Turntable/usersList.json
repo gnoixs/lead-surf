@@ -1,0 +1,27 @@
+[
+  {
+    "name": "test1",
+    "amount": 6,
+    "awards": []
+  },
+  {
+    "name": "test2",
+    "amount": 5,
+    "awards": []
+  },
+  {
+    "name": "test3",
+    "amount": 8,
+    "awards": []
+  },
+  {
+    "name": "test4",
+    "amount": 9,
+    "awards": []
+  },
+  {
+    "name": "test5",
+    "amount": 4,
+    "awards": []
+  }
+]

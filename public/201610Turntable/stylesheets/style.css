@@ -1,0 +1,485 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+i,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+fieldset,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background: url(../images/bg.jpg) no-repeat center top;
+    height: 2550px;
+    width: 100%;
+}
+
+.main {
+    height: 2550px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+
+.nav {
+    background: url(images/MergedLayers.png);
+    
+    background: url(../images/nav.png) no-repeat left center;
+    height: 30px;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 270px;
+}
+
+.nav li {
+    float: left;
+    height: 30px;
+    width: 90px;
+}
+
+.nav li a {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 31px;
+    margin-left: 24px;
+}
+
+.join {
+    background: url(../images/join.png) no-repeat center center;
+    display: block;
+    height: 70px;
+    left: 380px;
+    position: absolute;
+    text-indent: 9999px;
+    top: 393px;
+    width: 187px;
+    z-index: 10;
+}
+
+.join:hover {
+    background: url(../images/joinhover.png) no-repeat center bottom;
+    height: 66px;
+    top: 400px;
+    width: 187px;
+}
+
+.center {
+    background: url(../images/centerbg.png) no-repeat center center;
+    height: 758px;
+    left: 100px;
+    overflow: visible;
+    position: absolute;
+    top: 474px;
+    width: 758px;
+}
+
+
+/*
+.center .mask {
+  width: 454px;
+  height: 451px;
+  position: absolute;
+  left: 116px;
+  top: 60px;
+}
+*/
+
+.center .pointer {
+    height: 228px;
+    left: 50%;
+    margin-left: -83px;
+    margin-top: -139px;
+    position: absolute;
+    top: 50%;
+    width: 174px;
+    z-index: 8;
+}
+
+.center .pointer:hover {
+    cursor: pointer;
+}
+
+.center .rotate {
+    height: 683px;
+    left: 37px;
+    position: absolute;
+    top: 38px;
+    width: 683px;
+}
+
+.lights {
+    background: url(../images/lights.png) no-repeat center center;
+    height: 753px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 753px;
+}
+
+.light2 {
+    display: none;
+    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+}
+
+.curtion {
+    /*    background: rgba(0, 0, 0, 0.6);*/
+    background: url(../images/bg.png) repeat center center;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.login,
+.prop,
+.reward {
+    background: url(../images/login.png) no-repeat center center;
+    bottom: 0;
+    height: 286px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 452px;
+}
+
+.prop div {
+    width: 133px;
+    height: 46px;
+    position: absolute;
+    left: 160px;
+    top: 168px;
+}
+
+.prop div:hover {
+    cursor: pointer;
+}
+
+.prop.match {
+    background: url(../images/match.png) no-repeat center center;
+    display: none;
+}
+
+.prop.unmatch {
+    background: url(../images/unmatch.png) no-repeat center center;
+    display: none;
+}
+
+.prop.useup {
+    background: url(../images/useup.png) no-repeat center center;
+    display: none;
+}
+
+.reward {
+    background: url(../images/aimed.png) no-repeat center center;
+    display: none;
+    width: 561px;
+    height: 396px;
+}
+
+.reward h1,
+.reward h2,
+.reward p {
+    text-indent: -8px;
+    font-family: 微软雅黑;
+    text-align: center;
+    position: relative;
+    color: #e04a00;
+    top: 95px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.reward h1 {
+    color: #eec04d;
+}
+
+.reward h2 {
+    top: 110px;
+    font-weight: 100;
+}
+
+.reward p {
+    font-size: 15px;
+    top: 130px;
+    color:#eec04d;
+}
+
+.prop.match div,
+.prop.useup div {
+    top: 181px;
+    left: 161px;
+}
+
+.login input {
+    background: none;
+    border: none;
+    color: #5a4530;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    height: 46px;
+    left: 55px;
+    outline: none;
+    position: absolute;
+    text-indent: 10px;
+    top: 102px;
+    width: 345px;
+    line-height: 46px;
+}
+
+.login input.pwd {
+    top: 210px;
+}
+
+.btn-login {
+    height: 46px;
+    left: 159px;
+    position: absolute;
+    top: 182px;
+    width: 133px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}
+
+.close {
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.count {
+    width: 23px;
+    height: 34px;
+    position: absolute;
+    left: 161px;
+    top: 112px;
+    font-family: 微软雅黑;
+    font-size: 35px;
+    text-align: center;
+    color: #e04a00;
+    font-weight: 100;
+}
+
+.toggle {
+    width: 448px;
+    height: 312px;
+    background: url(../images/lights-rect.png) no-repeat center center;
+    position: absolute;
+    left: 57px;
+    top: 42px;
+}
+
+.toggle.toggle1 {
+    background: url(../images/lights-rect1.png) no-repeat center center;
+    display: none;
+}
+
+.btn-aimed {
+    width: 133px;
+    height: 46px;
+    position: absolute;
+    left: 210px;
+    top: 252px;
+}
+
+.btn-aimed:hover {
+    cursor: pointer;
+}
+
+.clickme {
+    width: 51px;
+    height: 40px;
+    background: url(../images/clickme.png) no-repeat center center;
+    position: absolute;
+    left: 58px;
+    top: 66px;
+}
+
+@keyframes click {
+    from {
+        top: 66px;
+    }
+    to {
+        top: 80px
+    }
+}
+
+.clickme.jump {
+    animation: click 0.5s infinite ease alternate;
+}
+.logo a{
+    width:150px;
+    height: 80px;
+    position: absolute;
+    display: block;
+    text-indent: -9999px;
+}
+.logo a:hover{
+    cursor:pointer;
+}
+
+.words{
+    width:1000px;
+    height: 1180px;
+    position: absolute;
+    top:1297px;
+/*    background:red;*/
+/*    opacity: 0.5;*/
+}
+
+.line {
+    width:100%;
+    height: auto;
+    font-family:微软雅黑;
+    margin-bottom:25px;   
+}
+.pd10{
+    padding-left:10px;
+}
+.pd25{
+    padding-left:25px;
+}
+.pd100{
+    padding-left:100px;
+}
+.pd50{
+    padding-left:50px;
+}
+.line h2{
+    color: #fdc133;
+    font-size: 20px;
+    padding-left: 25px;
+    height: auto;
+    /* line-height: 40px; */
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.line p{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 27px;
+    margin-left: 28px;
+}
+.line p span{
+    color: #ff7160;
+}
+.line p img{
+    position: relative;
+    top:10px;
+}
+.line p.zhanwei {
+    text-indent: -9999px;
+    line-height: 10px;
+}
+
+.footer {
+    width: 208px;
+    height: 13px;
+    line-height: 18px;
+    font-size: 12px;
+    position: absolute; 
+    bottom: 41px;
+    color:#ffffff;
+    left: 396px;
+    font-family: 'Microsoft YaHei';
+}

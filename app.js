@@ -9,6 +9,7 @@ var routes = require('./routes/index');
 var _201611RedPocket = require('./routes/201611RedPocket');   //11月红包活动
 var _201610Turntable = require('./routes/201610Turntable');   //10乐赢大转盘
 var _201610AcademyIndex = require('./routes/201610AcademyIndex');   //10月彩票学院落地推广页
+var _201611Awards = require('./routes/201611Awards');   //10月彩票学院落地推广页
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use('/', routes);
 app.use('/201611RedPocket', _201611RedPocket);
 app.use('/201610Turntable', _201610Turntable);
 app.use('/201610AcademyIndex', _201610AcademyIndex);
+app.use('/201611Awards', _201611Awards);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -18,7 +18,7 @@ $(function () {
             $('.btn').css('background', "url(images/btn-done.png)");
             $('#signIn ._range').text(data._range);
             $('#signIn ._name').text(data._name);
-            $('#signIn ._money').text(data._money);
+            $('#signIn ._money').text(Math.floor(data._money,2));
             $('#list').html('');
             var list = data._list.sort(function (a, b) {
                 return b._umoney - a._umoney;
@@ -47,7 +47,7 @@ $(function () {
         if (typeof str == "number") {
             str += "";
         }
-        var str_array = str.split("");
+        var str_array = str.split(".")[0].split("");
         var size = str_array.length;
         if (size <= 3) {
             return str;
@@ -63,7 +63,11 @@ $(function () {
         }
         var res = temp_array.reverse().join("");
         res = res.replace(/^,/, "");
-        return res;
+        if(str.split('.')[1]){
+            return res+'.'+str.split('.')[1];
+        }else{
+            return res;
+        }
     }
 
 })

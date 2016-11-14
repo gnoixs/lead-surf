@@ -2,7 +2,7 @@
   "_name":"test",
   "_signIn":true,
   "_range": 200,
-  "_money": 130,
+  "_money": 2299.9999999999999999999999,
   "_list":[
     {"_uname":"aa**bb","_umoney":125436},
     {"_uname":"ac**bc","_umoney":65894},
@@ -10,7 +10,7 @@
     {"_uname":"aa**nb","_umoney":124586},
     {"_uname":"aq**bm","_umoney":125486},
     {"_uname":"at**bb","_umoney":262350},
-    {"_uname":"ya**bb","_umoney":415427},
+    {"_uname":"ya**bb","_umoney":415427.93},
     {"_uname":"yt**bb","_umoney":14587},
     {"_uname":"ai**bb","_umoney":456986},
     {"_uname":"ac**bb","_umoney":21456},
@@ -20,7 +20,7 @@
     {"_uname":"qa**bb","_umoney":47859},
     {"_uname":"da**bb","_umoney":145768},
     {"_uname":"ba**bb","_umoney":14275},
-    {"_uname":"pa**bb","_umoney":1425758},
+    {"_uname":"pa**bb","_umoney":17.2},
     {"_uname":"ma**bb","_umoney":14578},
     {"_uname":"ba**bb","_umoney":145785},
     {"_uname":"za**bb","_umoney":457857}
